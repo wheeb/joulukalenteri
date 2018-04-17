@@ -13,99 +13,78 @@
 
 		}
 	</script>
-	<link rel="stylesheet" type="text/css" src="css.css">
-
-<!-- 	bootstrap impilmentation-->	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<!-- 	bootstrap impilmentation-->
-</head>
-<body onload="paska()">
-	<div class="container">
-		<div class="row">
-			<div class="col-6 col-md-4">
-				<div id="stuff"> 
-					<img src="bisse4.png">
-				</div>
-			</div>
-			<div class="col-6 col-md-4">
-				<div id="stuff"> 
-					<img src="bisse4.png">
-				</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-6 col-md-4">
-				<div id="stuff"> 
-					<img src="bisse4.png">
-				</div>
-			</div>
-			<div class="col-6 col-md-4">
-				<div id="stuff"> 
-					<img src="bisse4.png">
-				</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-6 col-md-4">
-				<div id="stuff"> 
-					<img src="bisse4.png">
-				</div>
-			</div>
-			<div class="col-6 col-md-4">
-				<div id="stuff"> 
-					<img src="bisse4.png">
-				</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-6 col-md-4">
-				<div id="stuff"> 
-					<img src="bisse4.png">
-				</div>
-			</div>
-			<div class="col-6 col-md-4">
-				<div id="stuff"> 
-					<img src="bisse4.png">
-				</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-6 col-md-4">
-				<div id="stuff"> 
-					<img src="bisse4.png">
-				</div>
-			</div>
-			<div class="col-6 col-md-4">
-				<div id="stuff"> 
-					<img src="bisse4.png">
-				</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-6 col-md-4">
-				<div id="stuff"> 
-					<img src="bisse4.png">
-				</div>
-			</div>
-			<div class="col-6 col-md-4">
-				<div id="stuff"> 
-					<img src="bisse4.png">
-				</div>
-		</div>
-	</div>						
-		</div>
-	</div>
-	<button onclick="testis()">k,iyujthyrgtrfsed</button>
+	<link rel="stylesheet" type="text/css" href="tyyli.css">
 	
 
+
+<link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+
+
+
+</head>
+<body onload="paska()">
+	<div id="maincontainer">
+		<div id="boxi">
+			<button id="myBtn">
+			<img src="bisse4.png">
+			</button>
+		</div>
+		<div id="boxi">
+			<img src="bisse4.png">
+		</div>
+		<div id="boxi">
+			<img src="bisse4.png">
+		</div>
+		<div id="boxi">
+			<img src="bisse4.png">
+		</div>
+
+
+
+	</div>
+
+
+
+
+
+
+	
+
+	<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>	
+<script>
+		var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+	</script>
 
 </body>
 </html>
