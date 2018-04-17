@@ -1,66 +1,66 @@
 	var luukut = [
 	{
-		"title" : "getFullYear1",
+		"title" : "Viikko 21",
 		"description" : "7iyr",
 		"image" : "image.image"
 	},
 	{
-		"title" : "getFullYear2",
+		"title" : "Viikko 22",
 		"description" : "7iyr",
 		"image" : "image.image"
 	},
 	{
-		"title" : "getFullYear3",
+		"title" : "Viikko 23",
 		"description" : "7iyr",
 		"image" : "image.image"
 	},
 	{
-		"title" : "getFullYear4",
+		"title" : "Viikko 24",
 		"description" : "7iyr",
 		"image" : "image.image"
 	},
 		{
-		"title" : "getFullYear5",
+		"title" : "Viikko 25",
 		"description" : "7iyr",
 		"image" : "image.image"
 	},
 		{
-		"title" : "getFullYear6",
+		"title" : "Viikko 26",
 		"description" : "7iyr",
 		"image" : "image.image"
 	},
 		{
-		"title" : "getFullYear7",
+		"title" : "Viikko 27",
 		"description" : "7iyr",
 		"image" : "image.image"
 	},
 		{
-		"title" : "getFullYear8",
+		"title" : "Viikko 28",
 		"description" : "7iyr",
 		"image" : "image.image"
 	},
 		{
-		"title" : "getFullYear9",
+		"title" : "Viikko 29",
 		"description" : "7iyr",
 		"image" : "image.image"
 	},
 		{
-		"title" : "getFullYear10",
+		"title" : "Viikko 30",
 		"description" : "7iyr",
 		"image" : "image.image"
 	},
 		{
-		"title" : "getFullYear11",
+		"title" : "Viikko 31",
 		"description" : "7iyr",
 		"image" : "image.image"
 	},
 		{
-		"title" : "getFullYear13",
+		"title" : "Viikko 32",
 		"description" : "7iyr",
 		"image" : "image.image"
 	},
 		{
-		"title" : "getFullYear23",
+		"title" : "Viikko 33",
 		"description" : "7iyr",
 		"image" : "image.image"
 	}
