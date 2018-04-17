@@ -82,12 +82,17 @@
 		}
 	
 
+
 	function testis() {
 
 	/*var currentviikko = (new Date().getWeekNumber());  tätä käytetään oikeessa versiossa*/
 	var currentviikko = 13; /*nyt vaan laitetaan viikko numeroon 13 testauksen vuoks*/
-		for (var i = luukut.length; i >= currentviikko; i--) /*<--vituttaa tällänen*/{
+		for (var i = luukut.length; i > currentviikko;) /*<--vituttaa tällänen*/{
 			luukut[i]
+			console.log('123');
+			console.log(luukut.length);
 		}
 
+
 	}
+	
