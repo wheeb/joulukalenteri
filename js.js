@@ -95,5 +95,23 @@
 
 
 	}
-	
+	var i;
+	var ehto;
+	for (i = luukunviikko; i == nykyinenviikko; i++) {
+		ehto = viikonkerronta();
+	}
 
+	/*luukun onclick kertoo nykyisen viikon ja looppi katsoo ollaanko kyseisellä viikolla*/
+	function viikonkerronta() {
+	if (nykyinenviikko > luukunviikko) {
+		document.getElementById("modal").innerHTML = "Viikko meni jo. Katso seuraava!"
+	}
+
+	else if (nykyinenviikko == luukunviikko) {
+		document.getElementById("modal").innerHTML = luukut[i].title + luukut[i].description + "yms muu kontentti";
+	}
+
+	else if (nykyinenviikko < luukunviikko) {
+		document.getElementById("modal").innerHTML = "Tämä luukku ei ole vielä auki palaa myöhemmin"
+	}
+}
