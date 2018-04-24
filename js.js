@@ -80,21 +80,8 @@
 		var outputs = Math.ceil((((d - yearStart) / 86400000) + 1)/7);
 		return outputs; /*kuinka saada viikkonumero? 'new Date().getWeekNumber()' palauttaa nykyisen viikon*/
 		}
-	
 
 
-	function testis() {
-
-	/*var currentviikko = (new Date().getWeekNumber());  tätä käytetään oikeessa versiossa*/
-	var currentviikko = 13; /*nyt vaan laitetaan viikko numeroon 13 testauksen vuoks*/
-		for (var i = luukut.length; i > currentviikko;) /*<--vituttaa tällänen*/{
-			luukut[i]
-			console.log('123');
-			console.log(luukut.length);
-		}
-
-
-	}
 	var i;
 	var ehto;
 	for (i = luukunviikko; i == nykyinenviikko; i++) {
