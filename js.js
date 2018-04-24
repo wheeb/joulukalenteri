@@ -81,17 +81,19 @@
 		return outputs; /*kuinka saada viikkonumero? 'new Date().getWeekNumber()' palauttaa nykyisen viikon*/
 		}
 
+		var currentweek = new Date().getWeekNumber();
+
 	/*luukun onclick kertoo nykyisen viikon ja looppi katsoo ollaanko kyseisellä viikolla*/
 	function viikonkerronta() {
-	if (nykyinenviikko > luukunviikko) {
+	if (currentweek > luukunviikko) {
 		document.getElementById("modal").innerHTML = "Viikko meni jo. Katso seuraava!"
 	}
 
-	else if (nykyinenviikko == luukunviikko) {
+	else if (currentweekviikko == luukunviikko) {
 		document.getElementById("modal").innerHTML = luukut[i].title + luukut[i].description + "yms muu kontentti";
 	}
 
-	else if (nykyinenviikko < luukunviikko) {
+	else if (currentviikko < luukunviikko) {
 		document.getElementById("modal").innerHTML = "Tämä luukku ei ole vielä auki palaa myöhemmin"
 	}
 }
