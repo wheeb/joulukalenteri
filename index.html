@@ -25,9 +25,9 @@
 <body onload="paska()">
 	<div id="maincontainer">
 		<div id="boxi">
-			<button id="myBtn">
+			<div class="click-to-open" data-modal="modal-window-one">
 			<img src="kuvat/kuva1-1.jpg" class="image">
-			</button>
+			</div>
 			<div id='overlay'></div>
 		</div>
 		<div id="boxi">
@@ -54,37 +54,32 @@
 	<div id="myModal" class="modal">
 
   <!-- Modal content -->
-  <div class="modal-content">
+  <div id="modal-window-one" class="modal-content">
     <span class="close">&times;</span>
     <p>Some text in the Modal..</p>
   </div>
 
 </div>	
 <script>
-		var modal = document.getElementById('myModal');
+var modal = document.getElementsByClassName('modal-window');
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var btn = document.getElementsByClassName("click-to-open");
 
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
+for (var i = 0; i < btn.length; i++) {
+  var thisBtn = btn[i];
+  thisBtn.addEventListener("click", function(){
+    var modal = document.getElementById(this.dataset.modal);
     modal.style.display = "block";
-}
+}, false);
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
+  span.onclick = function(){
+  	modal.style.display = "none";
+  }
+  window.onclick = function(event){
+  	
+  }
 	</script>
 
 </body>
