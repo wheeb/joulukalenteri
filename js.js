@@ -81,13 +81,6 @@
 		return outputs; /*kuinka saada viikkonumero? 'new Date().getWeekNumber()' palauttaa nykyisen viikon*/
 		}
 
-
-	var i;
-	var ehto;
-	for (i = luukunviikko; i == nykyinenviikko; i++) {
-		ehto = viikonkerronta();
-	}
-
 	/*luukun onclick kertoo nykyisen viikon ja looppi katsoo ollaanko kyseisellä viikolla*/
 	function viikonkerronta() {
 	if (nykyinenviikko > luukunviikko) {
