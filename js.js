@@ -89,3 +89,5 @@
 		document.getElementById("modal").innerHTML = "Tämä luukku ei ole vielä auki palaa myöhemmin"
 	}
 }
+
+console.log(random)
