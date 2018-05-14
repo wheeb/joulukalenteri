@@ -2,74 +2,64 @@
 	{
 		"title" : "Viikko 21",
 		"description" : "Maailma kylässä -festivaalia vietetään Helsingin keskustassa vuosittain toukokuun lopussa. Viikonlopun aikana Kaisaniemen puistossa ja Rautatientorilla nautitaan kymmenistä konserteista, tanssista, teatterista, kirjallisuudesta, hyvästä ruoasta ja ajankohtaisista keskusteluista. Ilmaistapahtuma tarjoaa tekemistä ja koettavaa kaikenikäisille. Lisätietoa tapahtumasta saat täältä: https://www.maailmakylassa.fi/",
-		"image" : "image.image"
 	},
 	{
 		"title" : "Viikko 22",
 		"description" : "7iyr",
-		"image" : "image.image"
 	},
 	{
 		"title" : "Viikko 23",
 		"description" : "7iyr",
-		"image" : "image.image"
 	},
 	{
 		"title" : "Viikko 24",
 		"description" : "7iyr",
-		"image" : "image.image"
 	},
 		{
 		"title" : "Viikko 25",
 		"description" : "7iyr",
-		"image" : "image.image"
 	},
 		{
 		"title" : "Viikko 26",
 		"description" : "7iyr",
-		"image" : "image.image"
 	},
 		{
 		"title" : "Viikko 27",
 		"description" : "7iyr",
-		"image" : "image.image"
 	},
 		{
 		"title" : "Viikko 28",
 		"description" : "7iyr",
-		"image" : "image.image"
 	},
 		{
 		"title" : "Viikko 29",
 		"description" : "7iyr",
-		"image" : "image.image"
 	},
 		{
 		"title" : "Viikko 30",
 		"description" : "7iyr",
-		"image" : "image.image"
 	},
 		{
 		"title" : "Viikko 31",
 		"description" : "7iyr",
-		"image" : "image.image"
 	},
 		{
 		"title" : "Viikko 32",
 		"description" : "7iyr",
-		"image" : "image.image"
 	},
 		{
 		"title" : "Viikko 33",
-		"description" : "7iyr",
-		"image" : "image.image"
+		"description" : "7iyr",		
 	}
 
 	]
 
-/*tähän tulee Array(eli kuvat)*/
+	/*functio määrittää luukunviikon*/
 
-
+	function printtaa(argumentti){
+		var luukunviikko = argumentti;
+		return luukunviikko;
+	}
 
 	/*tää hakee nykyisen viikon*/
 		Date.prototype.getWeekNumber = function(){
