@@ -55,14 +55,12 @@
 	]
 
 	/*functio määrittää luukunviikon*/
-
+		var luukunviikko;
 	function printtaa(argumentti){
-		var random = argumentti;
-		return random;
+		luukunviikko = argumentti;
+		var viikonteksti = viikonkerronta();
+		console.log(viikonteksti);
 	}
-
-	var luukunviikko = printtaa();
-	console.log(luukunviikko);
 
 	/*tää hakee nykyisen viikon*/
 		Date.prototype.getWeekNumber = function(){
@@ -79,14 +77,14 @@
 	/*luukun onclick kertoo nykyisen viikon ja looppi katsoo ollaanko kyseisellä viikolla*/
 	function viikonkerronta() {
 	if (currentweek > luukunviikko) {
-		document.getElementById("modal").innerHTML = "Viikko meni jo. Katso seuraava!"
+		return "Viikko meni jo. Katso seuraava!";
 	}
 
-	else if (currentweekviikko == luukunviikko) {
-		document.getElementById("modal").innerHTML = luukut[i].title + luukut[i].description + "yms muu kontentti";
+	else if (currentweek == luukunviikko) {
+		return luukut[i].title + luukut[i].description + "yms muu kontentti";
 	}
 
-	else if (currentviikko < luukunviikko) {
-		document.getElementById("modal").innerHTML = "Tämä luukku ei ole vielä auki palaa myöhemmin"
+	else if (currentweek < luukunviikko) {
+		return "Tämä luukku ei ole vielä auki palaa myöhemmin";
 	}
 }
