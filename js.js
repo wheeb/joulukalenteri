@@ -5,7 +5,7 @@
 	},
 	{
 		"title" : "Viikko 22",
-		"description" : "7iyr",
+		"description" : "Tällä viikolla monia eri museo vaihtoehtoja, jotka ovat perjantaina ilmaisia. Linkkejä eri museoihin:  https://kiasma.fi/ / https://www.kansallismuseo.fi/fi/kansallismuseo/etusivu / https://www.valokuvataiteenmuseo.fi/fi",
 	},
 	{
 		"title" : "Viikko 23",
@@ -73,6 +73,7 @@
 		}
 
 		var currentweek = new Date().getWeekNumber();
+		var i = currentweek - 21;
 
 	/*luukun onclick kertoo nykyisen viikon ja looppi katsoo ollaanko kyseisellä viikolla*/
 	function viikonkerronta() {
