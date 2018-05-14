@@ -57,9 +57,11 @@
 	/*functio määrittää luukunviikon*/
 
 	function printtaa(argumentti){
-		var luukunviikko = argumentti;
-		return luukunviikko;
+		var random = argumentti;
+		console.log(random);
 	}
+
+
 
 	/*tää hakee nykyisen viikon*/
 		Date.prototype.getWeekNumber = function(){
