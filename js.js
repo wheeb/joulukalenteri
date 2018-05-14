@@ -59,7 +59,7 @@
 	function printtaa(argumentti){
 		luukunviikko = argumentti;
 		var viikonteksti = viikonkerronta();
-		console.log(viikonteksti);
+		window.alert(viikonteksti);
 	}
 
 	/*tää hakee nykyisen viikon*/
