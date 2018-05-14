@@ -37,11 +37,11 @@
 	},
 		{
 		"title" : "Viikko 30",
-		"description" : "Aika mennä tutustumaan kasvillisuuten. Talvipuutarha on ollut yli 120 vuotta kaupunkilaisten virkistys- ja kohtauspaikka. Hienostunut eksoottisten kasvien keidas kutsuu viherretkelle kaikkina vuodenaikoina.",
+		"description" : "Aika mennä tutustumaan kasvillisuuten. Talvipuutarha on ollut yli 120 vuotta kaupunkilaisten virkistys- ja kohtauspaikka. Hienostunut eksoottisten kasvien keidas kutsuu viherretkelle kaikkina vuodenaikoina. https://www.pranamakallio.com/",
 	},
 		{
 		"title" : "Viikko 31",
-		"description" : "Nyt suppailemaan. Hawaiilta alunperin lähtöisin oleva suppailu eli SUP-lautailu (Stand Up Paddle) on erittäin hauska ja helposti omaksuttava liikuntamuoto vesillä.",
+		"description" : "Nyt suppailemaan. Hawaiilta alunperin lähtöisin oleva suppailu eli SUP-lautailu (Stand Up Paddle) on erittäin hauska ja helposti omaksuttava liikuntamuoto vesillä. https://www.hel.fi/helsinki/fi/kulttuuri-ja-vapaa-aika/muu-vapaa-aika/seikkaile/talvipuutarha/talvipuutarha",
 	},
 		{
 		"title" : "Viikko 32",
