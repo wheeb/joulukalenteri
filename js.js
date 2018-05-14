@@ -58,10 +58,11 @@
 
 	function printtaa(argumentti){
 		var random = argumentti;
-		console.log(random);
+		return random;
 	}
 
-
+	var luukunviikko = printtaa();
+	console.log(luukunviikko);
 
 	/*tää hakee nykyisen viikon*/
 		Date.prototype.getWeekNumber = function(){
@@ -89,5 +90,3 @@
 		document.getElementById("modal").innerHTML = "Tämä luukku ei ole vielä auki palaa myöhemmin"
 	}
 }
-
-console.log(random)
