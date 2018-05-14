@@ -29,27 +29,27 @@
 	},
 		{
 		"title" : "Viikko 28",
-		"description" : "7iyr",
+		"description" : "Unescon maailmanperintökohde Suomenlinna on kulttuuriaarre, jonka rakentaminen alkoi 1700-luvun puolivälissä Suomen kuuluessa Ruotsiin. Nykyään linnoitus on mieleenpainuva kokemus kaikenikäisille. Suomenlinna on paitsi matkailukohde, myös 800 helsinkiläisen koti. Tervetuloa Suomenlinnaan! https://www.suomenlinna.fi/",
 	},
 		{
 		"title" : "Viikko 29",
-		"description" : "7iyr",
+		"description" : "Aina on aikaa joogalle! PuistoJooga on perustettu, jotta ihmiset voisivat tulla puistoon nauttimaan Joogasta. https://www.facebook.com/groups/465603713455075/about/",
 	},
 		{
 		"title" : "Viikko 30",
-		"description" : "7iyr",
+		"description" : "Aika mennä tutustumaan kasvillisuuten. Talvipuutarha on ollut yli 120 vuotta kaupunkilaisten virkistys- ja kohtauspaikka. Hienostunut eksoottisten kasvien keidas kutsuu viherretkelle kaikkina vuodenaikoina.",
 	},
 		{
 		"title" : "Viikko 31",
-		"description" : "7iyr",
+		"description" : "Nyt suppailemaan. Hawaiilta alunperin lähtöisin oleva suppailu eli SUP-lautailu (Stand Up Paddle) on erittäin hauska ja helposti omaksuttava liikuntamuoto vesillä.",
 	},
 		{
 		"title" : "Viikko 32",
-		"description" : "7iyr",
+		"description" : "Tervetuloa kirpputorille konepaja Brunoon! Iltakirppuja järjestetään kerran kuussa. Pöytäpaikkoja iltakirpussa on 60. Iltakirpun pöytävaraukset vain ennakkomaksulla. http://www.konepajanbruno.fi",
 	},
 		{
 		"title" : "Viikko 33",
-		"description" : "7iyr",		
+		"description" : "Aika lähteä seikkailemaan! KORKEE Paloheinä on vuonna 2017 avattu seikkailupuisto, josta löytyy mm. yli 700 metriä vaijeriliukuja sekä 15m Basehyppy! https://korkee.fi/",		
 	}
 
 	]
@@ -60,6 +60,7 @@
 		luukunviikko = argumentti;
 		var viikonteksti = viikonkerronta();
 		window.alert(viikonteksti);
+		console.log(argumentti);
 	}
 
 	/*tää hakee nykyisen viikon*/
