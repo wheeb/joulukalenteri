@@ -9,23 +9,23 @@
 	},
 	{
 		"title" : "Viikko 23",
-		"description" : "7iyr",
+		"description" : "Maailman suurin saunafestivaali, Finnish Sauna Festival perustuu saunoihin, suomalaiseen musiikkiin ja muotoiluun sekä kesäiseen ruokaan. http://saunafestival.fi/",
 	},
 	{
 		"title" : "Viikko 24",
-		"description" : "7iyr",
+		"description" : "Suomen vanhin ja suosituin huvipuisto, joka sijaitsee Helsingin Alppilassa. Linnanmäellä on yli 40 huvipuistolaitetta, runsaasti erilaisia pelejä sekä ravintoloita ja kahviloita. https://www.linnanmaki.fi/fi/",
 	},
 		{
 		"title" : "Viikko 25",
-		"description" : "7iyr",
+		"description" : "Juhannus hiljentää Helsingin kadut mutta keskikesän juhla tarjoaa runsaasti tapahtumia eri puolilla kaupunkia. https://www.hel.fi/uutiset/fi/kaupunginkanslia/helsingin-juhannus",
 	},
 		{
 		"title" : "Viikko 26",
-		"description" : "7iyr",
+		"description" : "Koko kansan Helsinki Pride tuo kaikki sateenkaaren värit kaupunkiin juhannuksen jälkeisellä viikolla. http://helsinkipride.fi/fi/",
 	},
 		{
 		"title" : "Viikko 27",
-		"description" : "7iyr",
+		"description" : "Craft Beer Helsinki on käsityöläisolutfestari, joka järjestetään kolmatta kertaa. http://www.craftbeerhelsinki.fi/",
 	},
 		{
 		"title" : "Viikko 28",
